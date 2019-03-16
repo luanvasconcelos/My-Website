@@ -1,7 +1,18 @@
 {% extends 'flowerapp/base.html' %}
+{% load staticfiles %}
 {% block content %}
   <h1>Luan Vasconcelos</h1>
+  <br>
   <h3>In here to use the Flower Prediction tool? It's right up there on the menu.</h3>
+  <br>
+  <br>
+  <br>
   <p>My Social Media accounts:</p>
-  <!-- <img src="LINKEDIN" alt=""> <img src="GITHUB" alt=""> -->
+  <a href="https://github.com/luanvasconcelos">
+    <img id="github" src='{% static 'images/Github-Logo.png' %}'>
+  </a>
+  <br>
+  <a href="http://www.linkedin.com/in/luan-vasconcelos-56379493">
+    <img id="linkedin" src='{% static 'images/linkedin.png' %}'>
+  </a>
 {% endblock %}
