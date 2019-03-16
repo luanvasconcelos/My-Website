@@ -8,4 +8,7 @@ def home(request):
     return render(request, 'flowerapp/home.html', data_dict)
 
 def prediction(request):
-    return render(request, 'flowerapp/flower_prediction.html', {'title': 'Flower Prediction'})
+    data_dict = {
+        'title': 'Flower Prediction',
+    }
+    return render(request, 'flowerapp/flower_prediction.html', data_dict)
