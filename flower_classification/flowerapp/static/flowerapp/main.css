@@ -17,9 +17,21 @@ p {
   font-size: 20px;
 }
 
+#github {
+  width:100px;
+  height:auto;
+  padding: 9px;
+}
+
+#linkedin {
+  width:120px;
+  height:auto;
+  padding: 9px;
+}
+
 .tab {
-       display:inline-block;
-       margin-left: 40px;
+  display:inline-block;
+  margin-left: 40px;
 }
 
 .bg-steel {
